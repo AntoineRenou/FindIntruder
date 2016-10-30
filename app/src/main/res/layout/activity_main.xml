@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.antoinerenou.findintruder.MainActivity">
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:src="@drawable/glass"
+            android:background="#7dbbf5"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="FIND INTRUDER"
+            android:id="@+id/textView"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="#7dbbf5"
+            android:paddingBottom="10dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/button787"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:background="#2487d8"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:onClick="displayPlayActivity"
+            android:layout_marginTop="15dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_row="3"
+            android:layout_column="0"></LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="SETTINGS"
+            android:id="@+id/button2"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:background="#2487d8"
+            android:textColor="#ffffff"
+            android:onClick="displaySettingsActivity"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_row="5"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="SCORE"
+            android:id="@+id/button356"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:background="#2487d8"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:onClick="displayScoreActivity" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_row="7"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="RULES"
+            android:id="@+id/button6"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:background="#2487d8"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:onClick="displayRulesActivity" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Copyright AR IT - Find Intruder - 2016 "
+            android:id="@+id/textView2"
+            android:layout_row="10"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal"
+            />
+    </GridLayout>
+</RelativeLayout>
