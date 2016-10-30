@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.antoinerenou.findintruder.RulesActivity">
+    tools:context="com.antoinerenou.findintruder.RulesActivity"
+    android:background="@drawable/background">
 
     <GridLayout
         android:layout_width="fill_parent"
@@ -11,9 +12,8 @@
 
         <TextView
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="FIND INTRUDER"
             android:id="@+id/textView13"
             android:layout_row="0"
             android:layout_column="0"
@@ -21,7 +21,7 @@
             android:textSize="30dp"
             android:textColor="#ffffff"
             android:textStyle="bold"
-            android:background="#7dbbf5"
+            android:background="@drawable/headermini"
             android:paddingBottom="10dp"
             android:paddingTop="10dp" />
 

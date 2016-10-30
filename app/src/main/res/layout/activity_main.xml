@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.antoinerenou.findintruder.MainActivity">
+    tools:context="com.antoinerenou.findintruder.MainActivity"
+    android:background="@drawable/background">
 
     <GridLayout
         android:layout_width="fill_parent"
@@ -15,24 +16,8 @@
             android:id="@+id/imageView"
             android:layout_row="0"
             android:layout_column="0"
-            android:src="@drawable/glass"
-            android:background="#7dbbf5"
+            android:src="@drawable/header"
             android:paddingTop="10dp"
-            android:paddingBottom="10dp" />
-
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="FIND INTRUDER"
-            android:id="@+id/textView"
-            android:layout_row="1"
-            android:layout_column="0"
-            android:gravity="center"
-            android:textSize="30dp"
-            android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:background="#7dbbf5"
             android:paddingBottom="10dp" />
 
         <Button

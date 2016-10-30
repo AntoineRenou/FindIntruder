@@ -29,10 +29,6 @@
         <activity
             android:name=".ScoreActivity"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".PlayActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.CustomTheme" />
         <activity android:name=".WinActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.CustomTheme"></activity>
