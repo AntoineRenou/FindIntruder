@@ -26,7 +26,7 @@ Site-web :  http://www.antoinerenou.com
          - Application d'un filtre pour l'intru  
          - Changement du design
          
-# Find Intruder V0.0.3 - Antoine RENOU - 30/10/16
+# Find Intruder V0.0.3 - Antoine RENOU - 01/11/16
          Avancement du projet : 
          
          - Suppression de la page de Score
