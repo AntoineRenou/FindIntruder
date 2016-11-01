@@ -69,22 +69,6 @@
         <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="SCORE"
-            android:id="@+id/button9"
-            android:layout_row="3"
-            android:layout_column="0"
-            android:background="#2487d8"
-            android:textColor="#ffffff"
-            android:textSize="20dp"
-            android:onClick="displayScoreActivity"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp" />
-
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
             android:text="BACK TO MENU"
             android:id="@+id/button10"
             android:layout_row="4"

@@ -26,9 +26,6 @@
         <activity
             android:name=".RulesActivity"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".ScoreActivity"
-            android:screenOrientation="portrait" />
         <activity android:name=".WinActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.CustomTheme"></activity>
