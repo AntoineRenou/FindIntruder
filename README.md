@@ -6,7 +6,7 @@ Auteur du projet : Antoine RENOU
 Site-web :  http://www.antoinerenou.com
 
 # Find Intruder V0.0.1 - Antoine RENOU - 30/10/16
-         ## Avancement du projet : 
+         Avancement du projet : 
          
          - Création du menu principal       
          - Création de la page Settings        
@@ -16,9 +16,10 @@ Site-web :  http://www.antoinerenou.com
          - Création de la page de Play
          - Affichage et animation des canvas
          - Récupération de l'évenement lors du clic sur un canvas
+         - Affichage du score
 
 # Find Intruder V0.0.2 - Antoine RENOU - 30/10/16
-         ## Avancement du projet : 
+         Avancement du projet : 
          
          - Ajout d'icones     
          - Changement de couleur des icones
@@ -27,8 +28,6 @@ Site-web :  http://www.antoinerenou.com
 
 
 # Modification a venir ?
-* [X] Enregistrement des scores
-* [ ] Affichage de tous les scores
 * [ ] Ajout d'un viseur
 * [ ] Ajout des sons
 
